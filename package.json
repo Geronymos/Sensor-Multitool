@@ -1,0 +1,27 @@
+{
+  "name": "electron-sensor-multitool",
+  "version": "1.0.0",
+  "description": "like the server-versoin, but as a local gui-program",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^6.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geronymos/Sensor-Multitool.git"
+  },
+  "author": "GB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geronymos/Sensor-Multitool/issues"
+  },
+  "homepage": "https://github.com/Geronymos/Sensor-Multitool#readme"
+}
