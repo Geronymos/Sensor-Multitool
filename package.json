@@ -6,7 +6,13 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.9.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
   "devDependencies": {
     "electron": "^6.0.12"
   },
@@ -19,7 +25,7 @@
     "url": "git+https://github.com/Geronymos/Sensor-Multitool.git"
   },
   "author": "GB",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Geronymos/Sensor-Multitool/issues"
   },
