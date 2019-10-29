@@ -12,7 +12,8 @@ function createWindow () {
 
   // and load the index.html of the app.
 //   win.loadFile('index.html')
-  win.loadFile('node-server/public/index.html')
+  // win.loadFile('node-server/public/index.html')
+  win.loadFile('public/index.html')
 }
 
 app.on('ready', createWindow)
