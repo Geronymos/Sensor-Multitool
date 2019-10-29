@@ -8,30 +8,39 @@
         <title>Klima-Alarm</title>
 
         <!-- Fontawesome -->
-        <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css">
+        <!-- <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css"> -->
+        <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
         
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+        <!-- <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css"> -->
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 
         <!-- jQuery library -->
-        <script src="bib/jquery-3.4.1.js"></script>
+        <!-- <script src="bib/jquery-3.4.1.js"></script> -->
+        <script>const $ = require('jquery');</script>
 
         <!-- Popper JS -->
-        <script src="bib/popper.min.js"></script>
+        <!-- <script src="bib/popper.min.js"></script> -->
+        <script>require('popper.js');</script>
 
         <!-- Latest compiled JavaScript -->
-        <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script> 
+        <!-- <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>  -->
+        <script>require('bootstrap')</script>
 
 
         <!-- Chart.js -->
-        <script src="bib/moment.js"></script>
-        <script src="Chart.js-2.8.0/samples/utils.js"></script>
-        <link rel="stylesheet" href="Chart.js-2.8.0/dist/Chart.css">
-        <script src="Chart.js-2.8.0/dist/Chart.js"></script>
+        <!-- <script src="bib/moment.js"></script> -->
+        <!-- <script src="Chart.js-2.8.0/samples/utils.js"></script> -->
+        <!-- <link rel="stylesheet" href="Chart.js-2.8.0/dist/Chart.css"> -->
+        <!-- <script src="Chart.js-2.8.0/dist/Chart.js"></script> -->
+        
+        <link rel="stylesheet" href="../node_modules/chart.js/dist/Chart.css">
+        <script>require('chart.js');</script>
+
 
 
         <!-- Socket.io -->
-        <script src="/socket.io/socket.io.js"></script>
+        <!-- <script src="/socket.io/socket.io.js"></script> -->
 
         <!-- own -->
         <script defer src="myCharts2.js"></script>
